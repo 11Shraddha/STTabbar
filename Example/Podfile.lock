@@ -1,0 +1,16 @@
+PODS:
+  - STTabbar (0.1.0)
+
+DEPENDENCIES:
+  - STTabbar (from `../`)
+
+EXTERNAL SOURCES:
+  STTabbar:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  STTabbar: 0488d4b4e02efc2879b9f4c7ac7a9307cfc476f2
+
+PODFILE CHECKSUM: 3857b3a33d91402f3fc2aacdab9e37c048dcdc59
+
+COCOAPODS: 1.9.1

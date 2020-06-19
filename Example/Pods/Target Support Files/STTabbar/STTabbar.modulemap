@@ -1,0 +1,6 @@
+framework module STTabbar {
+  umbrella header "STTabbar-umbrella.h"
+
+  export *
+  module * { export * }
+}
