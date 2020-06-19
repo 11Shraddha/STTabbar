@@ -53,6 +53,7 @@ class CustomTabViewController: UITabBarController {
 }
 ```
 3. Go to stoaryboard and change UITabBarController class to CustomTabViewController.
+
 ![alt tag](https://github.com/11Shraddha/STTabbar/blob/master/TabbarVCClass.png)
 
 
