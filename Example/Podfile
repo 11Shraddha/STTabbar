@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'STTabbar_Example' do
+  pod 'STTabbar', :path => '../'
+
+  target 'STTabbar_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
