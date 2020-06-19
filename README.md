@@ -60,6 +60,7 @@ class CustomTabViewController: UITabBarController {
 
 
 4. Also change UItabBar class to STTabbar.
+
 ![alt tag](https://github.com/11Shraddha/STTabbar/blob/master/Tabbarclass.png)
 
 
