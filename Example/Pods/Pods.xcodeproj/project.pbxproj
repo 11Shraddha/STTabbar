@@ -7,16 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1BC9AE97059FBDE957D70B5CB39EB766 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DCD97348272CA762B162B45C63E1362 /* ReplaceMe.swift */; };
+		0CA71D3E1036EC5E6AC204735E512C8B /* STTabbar-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 585C58F85F752F9775B733CA49E55312 /* STTabbar-dummy.m */; };
 		354CB2721C5C2FABC59A28CAAA291BEA /* Pods-STTabbar_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F7144A3A3C0CC11744267DDD944DC66A /* Pods-STTabbar_Tests-dummy.m */; };
 		386E263623642C3733DE1C09F662A4B3 /* Pods-STTabbar_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A8FCC7F1A5679EA13249F9C777A6D75 /* Pods-STTabbar_Example-dummy.m */; };
 		60F3DEC31CD9D8C537AAD1A3FC00FD17 /* Pods-STTabbar_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2DE558742FD6A30DCC237C5CDC74F3E0 /* Pods-STTabbar_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6E8BAD59E2CBED51BC74655057C00D80 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		6FA5043421B63E7545BD3318DE66EFC2 /* STTabbar-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5B2BDB46697127BDC6D260D467973719 /* STTabbar-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		801C96FCE4A15AE7B47B88A0AB15D8D2 /* STTabbar-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DF2ECDBBE518DD52D48BC0971DBA92A1 /* STTabbar-dummy.m */; };
+		6FA5043421B63E7545BD3318DE66EFC2 /* STTabbar-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8F4BE45CA13A0C82464EB978658FE728 /* STTabbar-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9212DD6977AF0A03B64273D95BA55DC8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		9DB5D486508860C237872DFFC0FB8434 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		D43707CB3DFB6EB2F4FF5B986B8BD90C /* Pods-STTabbar_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BCD7D3D2F8E9CD65DA7E17BA866DF46B /* Pods-STTabbar_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D9E762DA0FDB4BBD71D0736085871E17 /* STTabbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D89AF4431C2623537412B06102F87A6 /* STTabbar.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,37 +38,37 @@
 
 /* Begin PBXFileReference section */
 		01E4A4BA43A5D6F0103CF6B456A5FF4D /* Pods-STTabbar_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-STTabbar_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		1DCD97348272CA762B162B45C63E1362 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = STTabbar/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
+		0778AA15F4A6673586F9B5CB43BFDD4F /* STTabbar.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = STTabbar.debug.xcconfig; sourceTree = "<group>"; };
+		0A5E7AAE8741789EC3CAA56209199E38 /* STTabbar.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = STTabbar.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		2D1799B7FFA9ED9D483A4FA1B613BC63 /* Pods-STTabbar_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-STTabbar_Tests-Info.plist"; sourceTree = "<group>"; };
+		2D89AF4431C2623537412B06102F87A6 /* STTabbar.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = STTabbar.swift; path = STTabbar/Classes/STTabbar.swift; sourceTree = "<group>"; };
 		2DE558742FD6A30DCC237C5CDC74F3E0 /* Pods-STTabbar_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-STTabbar_Tests-umbrella.h"; sourceTree = "<group>"; };
-		318BAAD46C4E8DD94E70FA90D3DAAFC7 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		35AC383BA05063E6F171A8FC168F1D2B /* STTabbar.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = STTabbar.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		3FD829D77CDA0F7306C045D4A7BEDFA0 /* Pods-STTabbar_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-STTabbar_Example-frameworks.sh"; sourceTree = "<group>"; };
 		409ACE40A04CDDB0FD82BA94C489DAF7 /* Pods_STTabbar_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_STTabbar_Example.framework; path = "Pods-STTabbar_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5425DD6D20C62DD902570F97332BDA58 /* Pods-STTabbar_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-STTabbar_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		5B2BDB46697127BDC6D260D467973719 /* STTabbar-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "STTabbar-umbrella.h"; sourceTree = "<group>"; };
+		585C58F85F752F9775B733CA49E55312 /* STTabbar-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "STTabbar-dummy.m"; sourceTree = "<group>"; };
+		5C0AD0A2565FFA6C761917CFB49865E4 /* STTabbar.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = STTabbar.modulemap; sourceTree = "<group>"; };
 		5C25BA63266CB76EAF5AB589C344C2B5 /* Pods-STTabbar_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-STTabbar_Example-Info.plist"; sourceTree = "<group>"; };
 		754A26E671C8149DC752A3D1140DAF93 /* Pods-STTabbar_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-STTabbar_Example.modulemap"; sourceTree = "<group>"; };
-		784E3539CC6EBB9D9226958F59863C6A /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		7A8FCC7F1A5679EA13249F9C777A6D75 /* Pods-STTabbar_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-STTabbar_Example-dummy.m"; sourceTree = "<group>"; };
 		869772449D871E0FA79BF338F98E98B8 /* Pods_STTabbar_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_STTabbar_Tests.framework; path = "Pods-STTabbar_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8925C5CC924E040AC306AB9B84A1EB7C /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		8A2B94F03F0B5EB50C6D98E9AB655ACD /* Pods-STTabbar_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-STTabbar_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		8C3301D171AE74BC986092F1CDBB8771 /* STTabbar-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "STTabbar-prefix.pch"; sourceTree = "<group>"; };
-		911D302636C561824F18193174E6D644 /* STTabbar.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = STTabbar.modulemap; sourceTree = "<group>"; };
+		8E8EA6B370EBBD1031D86D354062BE02 /* STTabbar.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = STTabbar.release.xcconfig; sourceTree = "<group>"; };
+		8F4BE45CA13A0C82464EB978658FE728 /* STTabbar-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "STTabbar-umbrella.h"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9E4A0B9EA0E9AD65B00C1D80EB01DA97 /* Pods-STTabbar_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-STTabbar_Tests.modulemap"; sourceTree = "<group>"; };
-		B20BBFED30B9647858EDEC02DA3B6305 /* STTabbar.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = STTabbar.debug.xcconfig; sourceTree = "<group>"; };
+		A480CDA22C77CC40BF97F5FC5E4C06D0 /* STTabbar-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "STTabbar-prefix.pch"; sourceTree = "<group>"; };
 		BCD7D3D2F8E9CD65DA7E17BA866DF46B /* Pods-STTabbar_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-STTabbar_Example-umbrella.h"; sourceTree = "<group>"; };
-		C1E97DDDC06B37D4BF0C0C972E83BEA0 /* STTabbar-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "STTabbar-Info.plist"; sourceTree = "<group>"; };
-		C233011CF02A830072D739FE9DB418D2 /* STTabbar.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = STTabbar.release.xcconfig; sourceTree = "<group>"; };
 		DB0D9A1CAD820C76966D01E3B739954A /* Pods-STTabbar_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-STTabbar_Example.release.xcconfig"; sourceTree = "<group>"; };
-		DF2ECDBBE518DD52D48BC0971DBA92A1 /* STTabbar-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "STTabbar-dummy.m"; sourceTree = "<group>"; };
 		DF457290193B4416F5BE43E7B9DDB7EB /* Pods-STTabbar_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-STTabbar_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		E45D79388ED0B0CCB7774699BD2CB3BD /* Pods-STTabbar_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-STTabbar_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		E53B813AE3D0F4BAFE8835FAF271B769 /* Pods-STTabbar_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-STTabbar_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		EC2A91C25E924052241C7502E8157A02 /* STTabbar-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "STTabbar-Info.plist"; sourceTree = "<group>"; };
 		EE095F1E2C54AE4270812B0D8C6A589B /* STTabbar.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = STTabbar.framework; path = STTabbar.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F7144A3A3C0CC11744267DDD944DC66A /* Pods-STTabbar_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-STTabbar_Tests-dummy.m"; sourceTree = "<group>"; };
+		FEDD9C0BF250A9A138653E3DA82ED35E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		FF51F7476F637AE11327AF8F21EDBE00 /* Pods-STTabbar_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-STTabbar_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -100,12 +100,37 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0DC8B7B8BA57B56B5612598498639891 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				FEDD9C0BF250A9A138653E3DA82ED35E /* LICENSE */,
+				8925C5CC924E040AC306AB9B84A1EB7C /* README.md */,
+				0A5E7AAE8741789EC3CAA56209199E38 /* STTabbar.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
 		3BC19AE3F24F7C25499C9F4E1297B1F6 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				E1ADB097B6E2E71CEDAFE43B147C10BD /* STTabbar */,
+				D27A524C238919590A0C8020B32BD6C1 /* STTabbar */,
 			);
 			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		589B560419524831D8F2B6DC904CB610 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				5C0AD0A2565FFA6C761917CFB49865E4 /* STTabbar.modulemap */,
+				585C58F85F752F9775B733CA49E55312 /* STTabbar-dummy.m */,
+				EC2A91C25E924052241C7502E8157A02 /* STTabbar-Info.plist */,
+				A480CDA22C77CC40BF97F5FC5E4C06D0 /* STTabbar-prefix.pch */,
+				8F4BE45CA13A0C82464EB978658FE728 /* STTabbar-umbrella.h */,
+				0778AA15F4A6673586F9B5CB43BFDD4F /* STTabbar.debug.xcconfig */,
+				8E8EA6B370EBBD1031D86D354062BE02 /* STTabbar.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/STTabbar";
 			sourceTree = "<group>";
 		};
 		75D7BEFD7EA5F1D57008318A470E4847 /* Pods-STTabbar_Example */ = {
@@ -133,16 +158,6 @@
 				EE095F1E2C54AE4270812B0D8C6A589B /* STTabbar.framework */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		BA245FBC28E08C770E21A06EBB8610AF /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				784E3539CC6EBB9D9226958F59863C6A /* LICENSE */,
-				318BAAD46C4E8DD94E70FA90D3DAAFC7 /* README.md */,
-				35AC383BA05063E6F171A8FC168F1D2B /* STTabbar.podspec */,
-			);
-			name = Pod;
 			sourceTree = "<group>";
 		};
 		BD61651944FEED359F92460AD195BEC6 /* Targets Support Files */ = {
@@ -181,30 +196,15 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		E1ADB097B6E2E71CEDAFE43B147C10BD /* STTabbar */ = {
+		D27A524C238919590A0C8020B32BD6C1 /* STTabbar */ = {
 			isa = PBXGroup;
 			children = (
-				1DCD97348272CA762B162B45C63E1362 /* ReplaceMe.swift */,
-				BA245FBC28E08C770E21A06EBB8610AF /* Pod */,
-				EC514B2C9AB7BE3292B04A6299FC8291 /* Support Files */,
+				2D89AF4431C2623537412B06102F87A6 /* STTabbar.swift */,
+				0DC8B7B8BA57B56B5612598498639891 /* Pod */,
+				589B560419524831D8F2B6DC904CB610 /* Support Files */,
 			);
 			name = STTabbar;
 			path = ../..;
-			sourceTree = "<group>";
-		};
-		EC514B2C9AB7BE3292B04A6299FC8291 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				911D302636C561824F18193174E6D644 /* STTabbar.modulemap */,
-				DF2ECDBBE518DD52D48BC0971DBA92A1 /* STTabbar-dummy.m */,
-				C1E97DDDC06B37D4BF0C0C972E83BEA0 /* STTabbar-Info.plist */,
-				8C3301D171AE74BC986092F1CDBB8771 /* STTabbar-prefix.pch */,
-				5B2BDB46697127BDC6D260D467973719 /* STTabbar-umbrella.h */,
-				B20BBFED30B9647858EDEC02DA3B6305 /* STTabbar.debug.xcconfig */,
-				C233011CF02A830072D739FE9DB418D2 /* STTabbar.release.xcconfig */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/STTabbar";
 			sourceTree = "<group>";
 		};
 		F7F21A35061AE1F498845A98B3BD9844 /* Pods-STTabbar_Tests */ = {
@@ -258,7 +258,7 @@
 			buildConfigurationList = 7D4CD3D4A7B90B86B14C04214ECA6704 /* Build configuration list for PBXNativeTarget "STTabbar" */;
 			buildPhases = (
 				84F790D466493235747080C1532D727B /* Headers */,
-				C6282DEAD9F096F791F2E6F00AE5D84C /* Sources */,
+				88E44A5C896349C1F87BA147D2675D8C /* Sources */,
 				04AD2E75639A39E6B8CA5F22CB6905DA /* Frameworks */,
 				FCB71D24C5433F8CB03C88A202F8515A /* Resources */,
 			);
@@ -371,12 +371,12 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C6282DEAD9F096F791F2E6F00AE5D84C /* Sources */ = {
+		88E44A5C896349C1F87BA147D2675D8C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1BC9AE97059FBDE957D70B5CB39EB766 /* ReplaceMe.swift in Sources */,
-				801C96FCE4A15AE7B47B88A0AB15D8D2 /* STTabbar-dummy.m in Sources */,
+				0CA71D3E1036EC5E6AC204735E512C8B /* STTabbar-dummy.m in Sources */,
+				D9E762DA0FDB4BBD71D0736085871E17 /* STTabbar.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -406,200 +406,7 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		0285CBB3DD9CE42FF4C338251C2781A1 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = C233011CF02A830072D739FE9DB418D2 /* STTabbar.release.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/STTabbar/STTabbar-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/STTabbar/STTabbar-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/STTabbar/STTabbar.modulemap";
-				PRODUCT_MODULE_NAME = STTabbar;
-				PRODUCT_NAME = STTabbar;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		192E7470CE5EB1D913E047C20C2D165E /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = E53B813AE3D0F4BAFE8835FAF271B769 /* Pods-STTabbar_Tests.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-STTabbar_Tests/Pods-STTabbar_Tests-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-STTabbar_Tests/Pods-STTabbar_Tests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		523E5FF53E62E0A06F70FB4D92E9B4D4 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5425DD6D20C62DD902570F97332BDA58 /* Pods-STTabbar_Example.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-STTabbar_Example/Pods-STTabbar_Example-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-STTabbar_Example/Pods-STTabbar_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		539BE91B68680EF631CB1C822FF35A9A /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = DB0D9A1CAD820C76966D01E3B739954A /* Pods-STTabbar_Example.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-STTabbar_Example/Pods-STTabbar_Example-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-STTabbar_Example/Pods-STTabbar_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		B0087CB4594321EF41619F3181FE120E /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_ENABLE_OBJC_WEAK = YES;
-				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_COMMA = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
-				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
-				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
-				CLANG_WARN_STRICT_PROTOTYPES = YES;
-				CLANG_WARN_SUSPICIOUS_MOVE = YES;
-				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				COPY_PHASE_STRIP = NO;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				ENABLE_NS_ASSERTIONS = NO;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu11;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"POD_CONFIGURATION_RELEASE=1",
-					"$(inherited)",
-				);
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				MTL_FAST_MATH = YES;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
-				SWIFT_VERSION = 5.0;
-				SYMROOT = "${SRCROOT}/../build";
-			};
-			name = Release;
-		};
-		B8BCBD0110C2658BB5DAADB9B7D97B92 /* Debug */ = {
+		131356BE54884448CA49C07BEDF4BB2A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -650,7 +457,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -663,11 +470,13 @@
 			};
 			name = Debug;
 		};
-		EA5B929A716F7A4A31CA81D1382F441A /* Debug */ = {
+		69E495EDD11AA2CA76C550B90EB44DB0 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = FF51F7476F637AE11327AF8F21EDBE00 /* Pods-STTabbar_Tests.debug.xcconfig */;
+			baseConfigurationReference = E53B813AE3D0F4BAFE8835FAF271B769 /* Pods-STTabbar_Tests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -679,7 +488,208 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-STTabbar_Tests/Pods-STTabbar_Tests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-STTabbar_Tests/Pods-STTabbar_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B6F22B4EF10E692C6BCD0CF33F270645 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DB0D9A1CAD820C76966D01E3B739954A /* Pods-STTabbar_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-STTabbar_Example/Pods-STTabbar_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-STTabbar_Example/Pods-STTabbar_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B743D8F6034A58E0C8278124A54C4AA3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5425DD6D20C62DD902570F97332BDA58 /* Pods-STTabbar_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-STTabbar_Example/Pods-STTabbar_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-STTabbar_Example/Pods-STTabbar_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		BAA71FDE3188481AF9F8DA326491B322 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8E8EA6B370EBBD1031D86D354062BE02 /* STTabbar.release.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/STTabbar/STTabbar-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/STTabbar/STTabbar-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/STTabbar/STTabbar.modulemap";
+				PRODUCT_MODULE_NAME = STTabbar;
+				PRODUCT_NAME = STTabbar;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F090CD07A80273D5A73C8EA19224ADDB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		FE1303E5109245C891F3FFB1B681F70D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FF51F7476F637AE11327AF8F21EDBE00 /* Pods-STTabbar_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-STTabbar_Tests/Pods-STTabbar_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-STTabbar_Tests/Pods-STTabbar_Tests.modulemap";
@@ -696,10 +706,12 @@
 			};
 			name = Debug;
 		};
-		F254E98FD1C9BF45A8A5AC86460E01A9 /* Debug */ = {
+		FF6DE28001B0C5BB7C7091D0B20AB3E1 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B20BBFED30B9647858EDEC02DA3B6305 /* STTabbar.debug.xcconfig */;
+			baseConfigurationReference = 0778AA15F4A6673586F9B5CB43BFDD4F /* STTabbar.debug.xcconfig */;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -712,7 +724,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/STTabbar/STTabbar-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/STTabbar/STTabbar-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/STTabbar/STTabbar.modulemap";
 				PRODUCT_MODULE_NAME = STTabbar;
@@ -733,8 +745,8 @@
 		2546F7EEF603CC6E91643C66E8608D98 /* Build configuration list for PBXNativeTarget "Pods-STTabbar_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				523E5FF53E62E0A06F70FB4D92E9B4D4 /* Debug */,
-				539BE91B68680EF631CB1C822FF35A9A /* Release */,
+				B743D8F6034A58E0C8278124A54C4AA3 /* Debug */,
+				B6F22B4EF10E692C6BCD0CF33F270645 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -742,8 +754,8 @@
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B8BCBD0110C2658BB5DAADB9B7D97B92 /* Debug */,
-				B0087CB4594321EF41619F3181FE120E /* Release */,
+				131356BE54884448CA49C07BEDF4BB2A /* Debug */,
+				F090CD07A80273D5A73C8EA19224ADDB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -751,8 +763,8 @@
 		59632AEFDEDCE8CB0BBE784403CE8300 /* Build configuration list for PBXNativeTarget "Pods-STTabbar_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				EA5B929A716F7A4A31CA81D1382F441A /* Debug */,
-				192E7470CE5EB1D913E047C20C2D165E /* Release */,
+				FE1303E5109245C891F3FFB1B681F70D /* Debug */,
+				69E495EDD11AA2CA76C550B90EB44DB0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -760,8 +772,8 @@
 		7D4CD3D4A7B90B86B14C04214ECA6704 /* Build configuration list for PBXNativeTarget "STTabbar" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F254E98FD1C9BF45A8A5AC86460E01A9 /* Debug */,
-				0285CBB3DD9CE42FF4C338251C2781A1 /* Release */,
+				FF6DE28001B0C5BB7C7091D0B20AB3E1 /* Debug */,
+				BAA71FDE3188481AF9F8DA326491B322 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
